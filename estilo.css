@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau&display=swap');
+*{
+    margin: 0em;
+    padding: 0em;
+}
+main
+{
+    width: 100vw;
+}
+
+nav{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 0.9683em;
+    color: #0B0B0B;
+    font-weight: bold;
+}
+
+
+.menuizq{
+    
+    display: flex;
+    width: 60vw;
+    text-align: center;
+    align-items: center;
+    padding-top: 2.5em;
+}
+.Ivyrelogo{
+    font-family: 'Gloock', serif;
+    font-size: 2.6em;
+    letter-spacing: -0.1375em;
+    width: 6.3em;
+    padding-right: 2.05em;
+    margin-top: -0.25em;
+}
+
+.menuizq a{
+    margin-left: 3.3em;
+    margin-right: 3.3em;
+    transition: 0.5s;
+}
+
+.menuizq a:hover{
+    text-shadow: 0.1875em 0.25em 0.1875em grey;
+    transform: scale(1.1);
+}
+
+
+.menuderecho{
+    background-color: #D6BDA6;
+    width: 40vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 2.5em;
+}
+
+.searchicon{
+    height: 1.4375em;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.bagicon{
+    height: 2.6em;
+    margin-left: 1em;
+    margin-right: 1em;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.notificacion{
+    border: 0.0625em solid black;
+    background-color: #F1eadc;
+    border-radius: 50%;
+    line-height: 1.5em;
+    width: 1.56em;
+    text-align: center;
+    position: relative;
+    bottom: 0.78em;
+    right: 4em;
+    font-size: 0.5625em;
+    cursor: pointer;
+}
+
+.bagynoti{
+    display: flex;
+    align-items: center;
+    transition: .5s;
+}
+
+.linea{
+    border-right: 0.15625em solid #BCA692;
+    height: 1.875em;
+    margin-top: 0.3125em; 
+}
+
+.botonsignin{
+    margin-right: 2em;
+    margin-left: 2.8em;
+    text-align: center;
+}
+
+.botonsignup{
+    border: 0.18em solid #0B0B0B;
+    background-color: #D6BDA6;
+    width: 6.425em;
+    height: 2.25em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9683em;
+    font-weight: bold;
+    margin-right: 6.85em;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.menuderecho a{
+    transition: 0.5s;
+}
+
+.menuderecho a:hover{
+    text-shadow: 0.1875em 0.25em 0.1875em grey;
+    transform: scale(1.1);
+}
+
+.botonsignup:hover{
+    transform: scale(1.1);
+    box-shadow: 0.1875em 0.25em 0.1875em grey;    
+}
+
+.searchicon:hover , .bagynoti:hover{
+    transform: scale(1.1);
+}
+
+
+section{
+    display: flex;
+}
+
+.izq{ 
+    width: 60%;
+}
+
+.encabezado{
+    color: #0B0B0B;
+    font-size: 7em;
+    font-family: 'Frank Ruhl Libre', serif;
+    padding-top: 2.5em;
+    padding-bottom: 0.580em;
+    line-height: 0.96em;
+    letter-spacing: -0.073em;
+    width: 6.4em;
+    margin-left: 0.811em;
+}
+
+.compra{
+    font-size: 1.2em;
+    font-family: 'Ysabeau', sans-serif;
+    font-weight: bold;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    padding-left: 1.9em;
+    padding-right: 1.9em;
+    border: 0.1875em solid #0B0B0B;
+    color: #0B0B0B;
+    margin-left: 5em;
+    background-color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.parrafo{  
+    color: #635959;
+    padding-top: 10em;
+    width: 20em;
+    letter-spacing: -0.055em;
+    font-size: 1.25em;
+    margin-left: 4.8em;
+}
+
+.compra:hover{
+    box-shadow: 0.1875em 0.25em 0.1875em grey;
+    margin-left: 9.375em;
+}
+
+
+.derecho{
+    width: 48.7vw;
+    display: flex;
+    background-color: #D6BDA6;
+    justify-content: space-evenly;  
+}
+
+.imgmujer{   
+    height:63em;
+    position: relative;
+    right:16.95em;   
+}
+
+.cambios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 18.5em;
+    margin-right: 2.5em;
+}
+
+.cambios small{
+    font-size: 0.53em;
+    line-height: 6.3em;
+}
+
+.bordepadre{
+    border: 0.0625em solid #6F6156;
+    background-color: #6F6156;
+    border-radius: 1em;
+    height: 12.3em;
+    width: 0.35em;
+    bottom:12.3em;
+    position: relative;
+    left: 1em; 
+    cursor: pointer;
+    outline: none;
+}
+
+.bordeunobtn , .bordedosbtn , .bordetresbtn{
+    border: 0.0625em solid #6F6156;
+    background-color: #6F6156;
+    border-radius: 1em;
+    height: 4.1em;
+    width: 0.35em;
+    bottom:24.6em;
+    position: relative;
+    left: 1em; 
+    cursor: pointer;
+    outline: none;
+}
+
+.bordeunobtn:focus , .bordedosbtn:focus , .bordetresbtn:focus{
+    border: 0.0625em solid #28231E;
+    background-color: #28231E;
+}
