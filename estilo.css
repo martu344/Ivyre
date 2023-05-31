@@ -148,13 +148,14 @@ section{
 
 .izq{ 
     width: 55vw;
+    height: 100vh;
 }
 
 .encabezado{
     color: #0B0B0B;
     font-size: 7em;
     font-family: 'Frank Ruhl Libre', serif;
-    padding-top: 2.5em;
+    margin-top: 15vh;
     padding-bottom: 0.580em;
     line-height: 0.96em;
     letter-spacing: -0.073em;
@@ -177,12 +178,12 @@ section{
     background-color: white;
     transition: .5s;
     cursor: pointer;
-    margin-top: 80vh ;
+    margin-top: 55vh ;
 }
 
 .parrafo{  
     color: #635959;
-    padding-top: 10em;
+    padding-top: 20vh;
     width: 20em;
     letter-spacing: -0.055em;
     font-size: 1.25em;
@@ -197,13 +198,14 @@ section{
 
 .derecho{
     width: 45vw;
+    height: 100vh;
     background-color: #D6BDA6;  
     position: relative;
     overflow: hidden;
 }
 
 .imgmujer{   
-    height:63em;
+    height:100vh;
     position: relative;
 }
 
