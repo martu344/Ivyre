@@ -29,7 +29,7 @@ nav a{
 .menuizq{
     
     display: flex;
-    width: 60vw;
+    width: 55vw;
     text-align: center;
     align-items: center;
     padding-top: 2.5em;
@@ -57,7 +57,7 @@ nav a{
 
 .menuderecho{
     background-color: #D6BDA6;
-    width: 40vw;
+    width: 45vw;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -147,7 +147,7 @@ section{
 }
 
 .izq{ 
-    width: 60%;
+    width: 55vw;
 }
 
 .encabezado{
@@ -159,7 +159,8 @@ section{
     line-height: 0.96em;
     letter-spacing: -0.073em;
     width: 6.4em;
-    margin-left: 0.811em;
+    position: absolute;
+    z-index: 5;
 }
 
 .compra{
@@ -176,6 +177,7 @@ section{
     background-color: white;
     transition: .5s;
     cursor: pointer;
+    margin-top: 80vh ;
 }
 
 .parrafo{  
@@ -194,24 +196,24 @@ section{
 
 
 .derecho{
-    width: 48.7vw;
-    display: flex;
-    background-color: #D6BDA6;
-    justify-content: space-evenly;  
+    width: 45vw;
+    background-color: #D6BDA6;  
+    position: relative;
+    overflow: hidden;
 }
 
 .imgmujer{   
     height:63em;
     position: relative;
-    right:16.95em;   
 }
 
 .cambios{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 18.5em;
-    margin-right: 2.5em;
+    position: absolute;
+    right: 6%;
+    top: 25%;
 }
 
 .cambios small{
@@ -232,20 +234,32 @@ section{
     outline: none;
 }
 
-.bordeunobtn , .bordedosbtn , .bordetresbtn{
+.bordeunobtn{
     border: 0.0625em solid #6F6156;
-    background-color: #6F6156;
+    background-color: #d1bfb0;
     border-radius: 1em;
     height: 4.1em;
     width: 0.35em;
     bottom:24.6em;
-    position: relative;
-    left: 1em; 
+    position: absolute;
+    right: -114%;
+    top: -1%;
     cursor: pointer;
     outline: none;
 }
+.bordedosbtn{
+    border: 0.0625em solid #6F6156;
+    background-color: #81746a;
+    border-radius: 1em;
+    height: 4.1em;
+    width: 0.35em;
+    bottom:24.6em;
+    position: absolute;
+    top: 16%;
+    left: 152%;
+    cursor: pointer;
+    outline: none;
 
-.bordeunobtn:focus , .bordedosbtn:focus , .bordetresbtn:focus{
-    border: 0.0625em solid #28231E;
-    background-color: #28231E;
 }
+
+
