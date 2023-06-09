@@ -2,7 +2,7 @@
 <h1 align="center">Proyecto Ivyre</h1>
 </div>
 
-<p> Este proyecto corresponde a la presentacion de una pagina de Ropa, la cual cuenta con un diseño minimalista el cual contiene:
+<p> Este proyecto corresponde a la presentacion de una pagina de Ropa, la cual cuenta con un diseño minimalista, en el ual solo desarrollamos el front endy el mismo contiene:
 <li>Menu, para navegar por el shop.</li>
 <li>Carrito de compras.</li>
 <li>Registro de cuenta.</li>
